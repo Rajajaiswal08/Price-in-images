@@ -1,0 +1,59 @@
+.box {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  margin-bottom: 15px;
+}
+
+.img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.filter-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3;
+}
+
+.rate {
+  margin-bottom: 10px;
+}
+
+.price, .total-price, .count {
+  margin: 0 5px;
+}
+
+.dec-btn, .inc-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dec-btn {
+  background-color: #dc3545;
+}
+
+.dec-btn:hover, .inc-btn:hover {
+  opacity: 0.8;
+}
